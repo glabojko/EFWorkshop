@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFWorkshop.IUTest", "EFWork
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFWorkshop.Domain", "Domain\EFWorkshop.Domain.csproj", "{2042F999-F522-4D41-9A58-CA01D33EA871}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFWorkshop.Data", "EFWorkshop.Data\EFWorkshop.Data.csproj", "{17EDE89E-14EA-469B-A61B-2DD1D7E667C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2042F999-F522-4D41-9A58-CA01D33EA871}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2042F999-F522-4D41-9A58-CA01D33EA871}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2042F999-F522-4D41-9A58-CA01D33EA871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17EDE89E-14EA-469B-A61B-2DD1D7E667C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17EDE89E-14EA-469B-A61B-2DD1D7E667C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17EDE89E-14EA-469B-A61B-2DD1D7E667C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17EDE89E-14EA-469B-A61B-2DD1D7E667C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
