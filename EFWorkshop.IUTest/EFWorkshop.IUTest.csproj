@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\EFWorkshop.Domain.csproj" />
+    <ProjectReference Include="..\EFWorkshop.Data\EFWorkshop.Data.csproj" />
+  </ItemGroup>
+
 </Project>
