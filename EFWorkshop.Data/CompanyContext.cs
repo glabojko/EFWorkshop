@@ -25,5 +25,11 @@ namespace EFWorkshop.Data
 
             base.OnConfiguring(optionsBuilder);
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Employee>().Property(x => x.FirstName).IsRequired().HasColumnType();
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

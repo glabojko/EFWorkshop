@@ -11,6 +11,8 @@ namespace EFWorkshop.Domain
     {
         
         public int Id { get; set; }
+        //[Required]
+        //[MaxLength(50)]
         public string LastName { get; set; }
         public string FirstName { get; set; }
         public string Salary { get; set; }
